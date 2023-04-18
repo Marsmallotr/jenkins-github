@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone'){
             steps{
-                git 'https://github.com/marshmallotr/jenkins-github.git'
+                git 'https://github.com/Marshmallotr/jenkins-github.git'
             }
         }
     }
